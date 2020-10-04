@@ -21,5 +21,16 @@ setuptools.setup(
     # tell the index what type of markup is used for the long description
     long_description_content_type="text/markdown",
     # give the URL for the homepage of the project (e.g., GitHub, BitBucket, etc.)
-    url=""
+    url="https://github.com/A-B-G/example-package.git",
+    # packages is a list of all Python import packages that should be included in the Distribution Package
+    # use find_package() to automatically discover all packages/subpackages instead of listing each one individually
+    packages=setuptools.find_packages(),
+    # classifiers give the index and pip additional metadata about your package (e.g., compatibility, license, OS-independent)
+    # classifiers should always include (at least) Python version the package works on, available license packaege is available under, and which operating system(s) your package will work on
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires=">=3.7.3"
 )
