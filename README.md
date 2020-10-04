@@ -11,4 +11,4 @@ to write your content.
 ## License
 Every package uploaded to the Python Package index should include a license. The license tells users installing the package the terms under which they can use the package. See  https://choosealicense.com/ for picking a license. <br>
 
-If the License is left blank, this means no one will be able to use the package.
+In the LICENSE file, paste the text of the license to be used. If the License field is left blank, this means no one will be able to use the package.
